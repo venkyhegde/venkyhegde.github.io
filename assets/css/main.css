@@ -3336,3 +3336,18 @@ margin-left: 50%;
 	font-size: 40px;
 	padding: 2px 2px 2px 2px;
 }
+.skill-name{
+	font-family: 'Open Sans', sans-serif !important;
+	margin: 0 0 0 0 !important;
+	font-weight: 600;
+}
+progress::-webkit-progress-bar {background-color:rgba(92, 199, 169, 0.2); width: 100%;}
+progress::-webkit-progress-value {background-color:#5cc7a9 !important;}
+progress {background-color: rgba(92, 199, 169, 0.2)}
+progress::-moz-progress-bar {background-color:  #5cc7a9 !important;}
+progress {
+height: 0.5em !important;	
+	color: #5cc7a9; 
+	border: 1px solid  rgba(92, 199, 169, 0.2);
+	
+}
