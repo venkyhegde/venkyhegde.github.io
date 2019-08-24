@@ -64,9 +64,9 @@
 
 	<!-- Main -->
 	<div id="main">
-
 		<!-- One -->
 		<section id="one">
+				<a href="#one" id="backtotop"><i class="fas fa-arrow-up"></i></a>
 			<header class="major">
 				<h2>About Me</h2>
 			</header>
@@ -268,9 +268,9 @@
 				</article>
 			</div>
 		</section>
-		<div id="btn">
+		<!-- <div id="btn">
 				<a href="#one" class="button primary solid circle"><i class="fas fa-arrow-up"></i></a>
-		</div>
+		</div> -->
 		<section id="three">
 			<h2>Academic Projects</h2>
 			<div class="row">
@@ -334,12 +334,13 @@
 						
 					</ul>
 				</article>
+				<br>
+				<br>
 			</div>
+
 			
 		</section>
-		<div id="btn">
-				<a href="#one" class="button primary solid circle"><i class="fas fa-arrow-up"></i></a>
-		</div>
+	
 	
 
 	</div>
@@ -360,6 +361,20 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+
+	<script>
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function() {scrollFunction()};
+			
+			function scrollFunction() {
+			  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+				document.getElementById("backtotop").style.display = "block";
+			  } else {
+				document.getElementById("backtotop").style.display = "none";
+			  }
+			}
+			
+			</script>
 
 </body>
 
