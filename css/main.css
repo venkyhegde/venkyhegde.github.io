@@ -6,14 +6,17 @@ body {
   font-size: small;
 }
 
-h1, h2, h3 {
-  font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif !important;
   font-weight: bold;
   text-align: center;
 }
 
-h2 {
-  /*font-size: 1vw;*/
+h1 {
+  font-size: 100%;
+}
+h6 {
+  font-size: 110%;
 }
 
 hr {
@@ -69,6 +72,10 @@ td, tr, th, table {
   width: 10% !important;
 }
 
-.accordion-override {
-  --bs-accordion-btn-icon-width: 0rem !important;
+.w-35 {
+  width: 35% !important;
+}
+
+.w-30 {
+  width: 35% !important;
 }
