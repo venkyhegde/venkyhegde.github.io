@@ -1,9 +1,9 @@
 body {
-  /*font-size: 0.5vw; !* Resets 1em to 10px *!*/
   font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif !important;
-  background: #fff;
+  background: #ffffff;
   color: #333;
   text-align: center;
+  font-size: small;
 }
 
 h1, h2, h3 {
@@ -29,10 +29,42 @@ hr {
   font-weight: bold;
 }
 
-.text-justify {
-  text-align: justify !important;
-}
-
 td, tr, th, table {
   font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif !important;
+}
+
+.start-25 {
+  left: 25% !important;
+}
+
+.start-26 {
+  left: 26% !important;
+}
+
+.start-30 {
+  left: 30% !important;
+}
+
+.start-35 {
+  left: 35% !important;
+}
+
+.start-40 {
+  left: 40% !important;
+}
+
+.start-70 {
+  left: 70% !important;
+}
+
+.start-75 {
+  left: 75% !important;
+}
+
+.w-12 {
+  width: 12.5% !important;
+}
+
+.w-10 {
+  width: 10% !important;
 }
