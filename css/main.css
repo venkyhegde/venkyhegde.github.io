@@ -1,6 +1,6 @@
 body {
-  font-size: 0.5vw; /* Resets 1em to 10px */
-  font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+  /*font-size: 0.5vw; !* Resets 1em to 10px *!*/
+  font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif !important;
   background: #fff;
   color: #333;
   text-align: center;
@@ -13,7 +13,7 @@ h1, h2, h3 {
 }
 
 h2 {
-  font-size: 1vw;
+  /*font-size: 1vw;*/
 }
 
 hr {
@@ -23,14 +23,6 @@ hr {
   overflow: hidden;
   border-style: inset;
   border-width: 2px;
-}
-
-.narrowcolumn {
-  display: block;
-  /*float: left;*/
-  width: 70vw;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .tagline {
