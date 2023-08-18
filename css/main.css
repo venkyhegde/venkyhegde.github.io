@@ -79,3 +79,7 @@ td, tr, th, table {
 .w-30 {
   width: 35% !important;
 }
+
+.accordion-override {
+  --bs-accordion-btn-icon-width: 0rem !important;
+}
