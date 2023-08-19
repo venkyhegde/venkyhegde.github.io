@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif !important;
+  font-family: Verdana, Arial, Sans-Serif !important;
   background: #ffffff;
   color: #333;
   text-align: center;
@@ -13,12 +13,12 @@ body {
 }
 
 p {
-  font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif !important;
+  font-family: Verdana, Arial, Sans-Serif !important;
   font-size: small;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif !important;
+  font-family: Verdana, Arial, Sans-Serif !important;
   font-weight: bold;
   text-align: center;
 }
@@ -54,7 +54,7 @@ hr {
 }
 
 td, tr, th, table {
-  font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif !important;
+  font-family: Verdana, Arial, Sans-Serif !important;
 }
 
 .start-25 {
