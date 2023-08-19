@@ -1,3 +1,9 @@
+@media (min-width: 1200px) {
+    .container{
+        max-width: 800px;
+    }
+}
+
 body {
   font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif !important;
   background: #ffffff;
@@ -36,6 +42,10 @@ hr {
 
 .tagline {
   font-weight: bold;
+}
+
+.fs-small {
+  font-size: small;
 }
 
 td, tr, th, table {
@@ -88,4 +98,24 @@ td, tr, th, table {
 
 .accordion-override {
   --bs-accordion-btn-icon-width: 0rem !important;
+}
+
+.border-md {
+  border-width: medium !important;
+}
+
+
+.accordion-button-ct {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+  font-size: 1rem;
+  color: var(--bs-accordion-btn-color);
+  text-align: left;
+  background-color: #ffffff;
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
 }
