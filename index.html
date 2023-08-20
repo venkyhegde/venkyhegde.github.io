@@ -9,8 +9,6 @@
   <link rel="icon" type="image/png" sizes="32x32" href="css/favicon.png">
   <link rel="icon" type="image/png" sizes="16x16" href="css/favicon.png">
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        crossorigin="anonymous">
   <link href="css/main.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
           crossorigin="anonymous"></script>
@@ -25,11 +23,14 @@
     <div class="vstack">
       <!--      HEADER-->
       <div class="p-1 mt-2">
-        <h4>Venkataramana Hegde</h4>
+        <h5>Venkataramana Hegde</h5>
         <p class="lh-sm fw-medium">
-          <a href="mailto:vhegde49er@gmail.com" target="_blank">email</a>
-          | <a href="https://linkedin.com/in/venky-hegde" target="_blank">linkedin</a>
-          | <a href="docs/resume.pdf" target="_blank" download="venky-hegde-resume.pdf">Download resume</a>
+          <a href="mailto:vhegde49er@gmail.com" target="_blank" data-bs-toggle="tooltip" title="email me"
+             role="tooltip"><i class="bi bi-envelope-at-fill m-1 fs-6"></i></a>
+          | <a href="https://linkedin.com/in/venky-hegde" target="_blank" data-bs-toggle="tooltip"
+               title="LinkedIn Profile" role="tooltip"><i class="bi bi-linkedin m-1 fs-6"></i></a>
+          | <a href="docs/resume.pdf" target="_blank" download="venky-hegde-resume.pdf" data-bs-toggle="tooltip"
+               title="Download Resume" role="tooltip"> <i class="bi bi-cloud-download-fill m-1 fs-6"></i></a>
         </p>
       </div>
       <!--      PROFILE-->
@@ -38,7 +39,7 @@
           <div class="d-inline-block border-top border-info border-md w-25">
           </div>
           <div class="d-inline-block w-50">
-            <h6>Profile</h6>
+            <strong>Profile</strong>
           </div>
           <div class="d-inline-block border-top border-info border-md w-25">
           </div>
@@ -57,7 +58,7 @@
           <div class="d-inline-block border-top border-info border-md w-25">
           </div>
           <div class="d-inline-block w-50">
-            <h6>Skills</h6>
+            <strong class="">Skills</strong>
           </div>
           <div class="d-inline-block border-top border-info border-md w-25">
           </div>
@@ -112,7 +113,7 @@
           <div class="d-inline-block border-top border-info border-md w-25">
           </div>
           <div class="d-inline-block w-50">
-            <h6>Experience</h6>
+            <strong>Experience</strong>
           </div>
           <div class="d-inline-block border-top border-info border-md w-25">
           </div>
@@ -157,27 +158,10 @@
                               data-bs-target="#flush-collapseOne" aria-expanded="false"
                               aria-controls="flush-collapseOne">
                         <p class="lh-base">Oracle (OCI) <br>Member of Technical Staff<br><span
-                          class="form-text">Austin, TX<br>Mar 2020 - Present</span>
+                          class="tagline">Austin, TX<br>Mar 2020 - Present</span>
                         </p>
                       </button>
                     </h2>
-                    <!--                    <div id="flush-collapseOne" class="accordion-collapse collapse"-->
-                    <!--                         data-bs-parent="#accordionFlushExample">-->
-                    <!--                      <div class="accordion-body">-->
-                    <!--                        <ul class="list-group list-group-flush text-start">-->
-                    <!--                          <li class="list-group-item">Working as Software Developer on development of Cloud native-->
-                    <!--                            services which-->
-                    <!--                            provides high availability solution to deployment pipelines.-->
-                    <!--                          </li>-->
-                    <!--                          <li class="list-group-item">Achieving Infrastructure and Deployment automa:on using-->
-                    <!--                            Terraform.-->
-                    <!--                          </li>-->
-                    <!--                          <li class="list-group-item">Offering maintenance and support to Container based CICD plaYorm-->
-                    <!--                            Wercker.-->
-                    <!--                          </li>-->
-                    <!--                        </ul>-->
-                    <!--                      </div>-->
-                    <!--                    </div>-->
                   </div>
                 </div>
               </div>
@@ -191,29 +175,9 @@
                               data-bs-target="#flush-collapseTwo" aria-expanded="false"
                               aria-controls="flush-collapseTwo">
                         <p class="lh-base">UNC Charlotte <br>Graduate Research Assistant<br><span
-                          class="form-text">Charlotte, NC<br>Feb 2018 - Dec 2019</span></p>
+                          class="tagline">Charlotte, NC<br>Feb 2018 - Dec 2019</span></p>
                       </button>
                     </h2>
-                    <!--                    <div id="flush-collapseTwo" class="accordion-collapse collapse"-->
-                    <!--                         data-bs-parent="#accordionFlushExample">-->
-                    <!--                      <div class="accordion-body">-->
-                    <!--                        <ul class="list-group list-group-flush text-start">-->
-                    <!--                          <li class="list-group-item">Worked as a Research Assistant, to analyze and design approaches-->
-                    <!--                            that-->
-                    <!--                            enable and support active user interaction with online video.-->
-                    <!--                          </li>-->
-                    <!--                          <li class="list-group-item">Implemented a Real Time CommunicaHon System to improve the active-->
-                    <!--                            engagement and analysis of video content, leveraging WebRTC API and other open source-->
-                    <!--                            technologies-->
-                    <!--                            such as Node.js, Vue.js, Media Server, together with AWS(EC2, Lambda, DynamoDB, S3).-->
-                    <!--                          </li>-->
-                    <!--                          <li class="list-group-item">Assisting Professor for the course Network Based App Dev using-->
-                    <!--                            Java based-->
-                    <!--                            Servlet and JavaScript based Node.js with class strength of 150+ students.-->
-                    <!--                          </li>-->
-                    <!--                        </ul>-->
-                    <!--                      </div>-->
-                    <!--                    </div>-->
                   </div>
                 </div>
               </div>
@@ -266,6 +230,7 @@
               </div>
             </div>
           </div>
+          <!--          Header 3, 4-->
           <div class="row">
             <div class="col-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
               <div class="row">
@@ -280,32 +245,6 @@
                         </p>
                       </button>
                     </h2>
-                    <!--                    <div id="flush-collapseThree" class="accordion-collapse collapse"-->
-                    <!--                         data-bs-parent="#accordionFlushExample">-->
-                    <!--                      <div class="accordion-body">-->
-                    <!--                        <ul class="list-group list-group-flush text-start">-->
-                    <!--                          <li class="list-group-item">Worked as a Full stack developer in CommonsRTB team and was-->
-                    <!--                            responsible-->
-                    <!--                            for the development/enhancement of the application.-->
-                    <!--                          </li>-->
-                    <!--                          <li class="list-group-item">I was asked to rewrite a legacy application “Policy View” to-->
-                    <!--                            overcome-->
-                    <!--                            maintenance and resource overhead and improve efficiency.-->
-                    <!--                          </li>-->
-                    <!--                          <li class="list-group-item">Designed a modular, decoupled API’s and UI using, Java based-->
-                    <!--                            Spring Data-->
-                    <!--                            REST and Jersey framework. Used React.js to develop User Interface which leverages the-->
-                    <!--                            virtual DOM-->
-                    <!--                            for higher performance. Followed Agile methodology, SCRUM, Pair programming, and Test-driven-->
-                    <!--                            development process.-->
-                    <!--                          </li>-->
-                    <!--                          <li class="list-group-item">Delivered around 6 REST APIs, and a prototype of robust User-->
-                    <!--                            Interface-->
-                    <!--                            which consumes these APIs and gave a better performance.-->
-                    <!--                          </li>-->
-                    <!--                        </ul>-->
-                    <!--                      </div>-->
-                    <!--                    </div>-->
                   </div>
                 </div>
               </div>
@@ -319,37 +258,10 @@
                               data-bs-target="#flush-collapseFour" aria-expanded="false"
                               aria-controls="flush-collapseFour">
                         <p class="lh-base">Capgemini India<br>Senior Software Engineer<br><span
-                          class="form-text">Bangalore, India<br>Mar 2014 - Nov 2016</span>
+                          class="tagline">Bangalore, India<br>Mar 2014 - Nov 2016</span>
                         </p>
                       </button>
                     </h2>
-                    <!--                    <div id="flush-collapseFour" class="accordion-collapse collapse"-->
-                    <!--                         data-bs-parent="#accordionFlushExample">-->
-                    <!--                      <div class="accordion-body">-->
-                    <!--                        <ul class="list-group list-group-flush text-start">-->
-                    <!--                          <li class="list-group-item">As a senior member of the team, was responsible for various tasks-->
-                    <!--                            which-->
-                    <!--                            were mainly about the development, enhancement, deployment and improvisation of Web-->
-                    <!--                            Applications.-->
-                    <!--                          </li>-->
-                    <!--                          <li class="list-group-item">Development of web applications for the clients and improve the-->
-                    <!--                            performance of the applications.-->
-                    <!--                          </li>-->
-                    <!--                          <li class="list-group-item">Used various technologies to implement the application services-->
-                    <!--                            and-->
-                    <!--                            improved the efficiency such as RESTful Web Services, MVC design pattern, Java APIs, JDBC,-->
-                    <!--                            Servlets,-->
-                    <!--                            Java Collection Framework, Exception Handling, JavaScript, AngularJS, Node.js Spring Boot-->
-                    <!--                            and Spring-->
-                    <!--                            Batch.-->
-                    <!--                          </li>-->
-                    <!--                          <li class="list-group-item">Efficiency of the client application were improved, and the-->
-                    <!--                            improvements-->
-                    <!--                            were verified using tools such as New Relic and Splunk.-->
-                    <!--                          </li>-->
-                    <!--                        </ul>-->
-                    <!--                      </div>-->
-                    <!--                    </div>-->
                   </div>
                 </div>
               </div>
@@ -430,7 +342,7 @@
                   <div class="d-inline-block border-top border-info border-md w-25">
                   </div>
                   <div class="d-inline-block w-50">
-                    <h6>Education</h6>
+                    <strong>Education</strong>
                   </div>
                   <div class="d-inline-block border-top border-info border-md w-25">
                   </div>
@@ -442,14 +354,14 @@
                 <ul class="list-group list-group-flush text-start">
                   <li class="list-group-item">
                     <p>Master of Science in Information Technology<br>
-                      <span class="form-text">University of North Carolina at Charlotte
+                      <span class="tagline">University of North Carolina at Charlotte
                         <br>Jan 2018 - Dec 2019</span>
                     </p>
                   </li>
                   <li class="list-group-item">
                     <p>
                       Bachelor of Engineering in Computer Science<br>
-                      <span class="form-text">Visveswaraya Technological University<br>
+                      <span class="tagline">Visveswaraya Technological University<br>
                       Aug 2009 - Aug 2013</span>
                     </p>
                   </li>
@@ -464,7 +376,7 @@
                   <div class="d-inline-block border-top border-info border-md w-25">
                   </div>
                   <div class="d-inline-block w-50">
-                    <h6>Side Projects</h6>
+                    <strong>Side Projects</strong>
                   </div>
                   <div class="d-inline-block border-top border-info border-md w-25">
                   </div>
@@ -486,8 +398,10 @@
       <!--      FOOTER-->
       <div class="p-1 mb-4">
         <p class="lh-sm fw-medium">
-          <a href="https://github.com/venkyhegde" target="_blank">github</a>
-          | <a href="https://linkedin.com/in/venky-hegde" target="_blank">linkedin</a>
+          <a href="https://github.com/venkyhegde" target="_blank" data-bs-toggle="tooltip" title="Github Profile"
+             role="tooltip"><i class="bi bi-github m-1 fs-5"></i></a>
+          | <a href="https://linkedin.com/in/venky-hegde" target="_blank" data-bs-toggle="tooltip"
+               title="LinkedIn Profile" role="tooltip"><i class="bi bi-linkedin m-1 fs-5"></i></a>
         </p>
       </div>
     </div>
